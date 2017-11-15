@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./lib/index.js",
+    "dev": "nodemon ./lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/Dafrok/issues-bot#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "github": "^12.0.1",
+    "noop3": "^999.999.999"
+  },
+  "devDependencies": {
+    "san": "^3.2.10"
   }
 }
